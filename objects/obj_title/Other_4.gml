@@ -1,0 +1,1 @@
+audio_play_sound(ost_intro,1,0);

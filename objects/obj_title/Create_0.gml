@@ -1,0 +1,11 @@
+alarm[0] = 300;
+global.accuracy = 20;
+global.tut = 0;
+randomize();
+global.point = 0;
+global.left = 45;
+global.right = 930;
+global.aback = -1039;
+global.eback = -40;
+global.grav = 1;
+display_set_gui_size(888, 510);

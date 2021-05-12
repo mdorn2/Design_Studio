@@ -1,0 +1,13 @@
+if(!instance_exists(obj_after_win)){	
+	if(!instance_exists(obj_enemy)){
+		instance_create_depth(room_width/2,0,-room_height/2,obj_after_win);
+	}
+}
+if(!instance_exists(obj_after_lose)){
+	if(!instance_exists(obj_player)){
+		instance_create_depth(x,y,0,obj_after_lose);
+	}
+}
+if(keyboard_check_pressed(ord("R"))){
+	game_restart();
+}

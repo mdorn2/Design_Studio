@@ -1,0 +1,10 @@
+randomize();
+y = 0;
+finx = 0;
+finy = 0;
+height = 0;
+jump = false;
+z = 100;
+global.accuracy = 20;
+instance_create_depth(x,-depth,0,obj_f_shadow);
+ide = instance_nearest(x,-depth,obj_f_shadow);
